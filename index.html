@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>BrokerApp</title>
+  </head>
+  <body>
+    <div class="container login">
+      <div class="createName flex-row">
+        <div class="flex-column">
+          <input
+            class="enterInformation information"
+            placeholder="Employee FirstName"
+            id="firstName"
+          />
+          <div class="mt-2" id="validationContainer1"></div>
+        </div>
+        <div class="flex-column">
+          <input
+            class="enterInformation"
+            placeholder="Enter Lastname"
+            id="lastName"
+          />
+          <div class="mt-2" id="validationContainer2"></div>
+        </div>
+        <div class="flex-column">
+          <input class="enterInformation" placeholder="Salary" id="salary" />
+          <div class="mt-2" id="validationContainer3"></div>
+        </div>
+      </div>
+      <div class="btn-flex">
+        <button class="btn" id="load">Load</button>
+        <button class="btn" id="add">Add</button>
+      </div>
+    </div>
+    <div class="flex-row">
+      <table class="container table">
+        <thead>
+          <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Salary</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- <tr>
+            <td>Hello</td>
+            <td>Hello</td>
+            <td>Hello</td>
+          </tr>
+          <tr>
+            <td>World</td>
+            <td>World</td>
+            <td>World</td>
+          </tr>
+          <tr>
+            <td>sjsjjsj</td>
+            <td>sjsjjsj</td>
+            <td>sjsjjsj</td>
+          </tr> -->
+        </tbody>
+      </table>
+      <ul class="list">
+        <h3>Employee</h3>
+        <!-- <li>
+          <input type="checkbox" />
+          <p>List Item</p>
+          <p>1</p>
+        </li>
+        <li>
+          <input type="checkbox" />
+          <p>List Item</p>
+          <p>1</p>
+        </li>
+        <li>
+          <input type="checkbox" />
+          <p>List Item</p>
+          <p>1</p>
+        </li> 
+         <li>
+          <input type="checkbox" />
+          <p>List Item</p>
+          <p>1</p>
+        </li> -->
+      </ul>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
